@@ -1,0 +1,15 @@
+header{
+    background-color: #06131f;
+}
+ body{
+    background-color: #1d2d3c;
+ }
+
+ div.disc{
+    background-color: #112030;
+ }
+
+.disc-container{
+    display: flex;
+    flex-wrap: wrap;
+}
