@@ -4,7 +4,7 @@ createApp({
     data(){
         return {
             apiUrl : './server.php',
-            items : [],
+            discs : [],
         }
     },
     methods: {
@@ -13,6 +13,6 @@ createApp({
         }
     },
     created(){
-        this.getItems()
+        this.getDiscs ()
     },
 }).mount('#app')
